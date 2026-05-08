@@ -37,8 +37,8 @@ Simultanément à la détection, une notification détaillée de sécurité est 
 ![Alerte Email](screenshots/03_email_security_alert.png)
 *Réception automatique de l'alerte de sécurité par email suite à la détection.*
 
-### 4. Transmission et Centralisation (Vault)
-L'événement est transféré de manière sécurisée depuis la cible vers le nœud Vault (le coffre-fort numérique de ChainSOC) pour un traitement isolé.
+### 4. Transmission et Sécurisation (Vault)
+L'événement est transféré de manière sécurisée depuis la cible vers le nœud Vault, un acteur décentralisé du réseau ChainSOC, pour un traitement isolé.
 ![Réception Vault](screenshots/04_vault_log_received.png)
 *Transmission et réception sécurisée du log sur la machine Vault.*
 
@@ -47,8 +47,8 @@ Le Watcher détecte automatiquement le log suspect et l'envoie au Vault ; le sys
 ![Preuve Blockchain](screenshots/05_vault_ipfs_blockchain_proof.png)
 *Génération automatique du CID IPFS et de la transaction blockchain pour sceller le log.*
 
-### 6. Supervision depuis le Dashboard
-L'interface web centralisée récupère et affiche l'ensemble des alertes en temps réel, offrant à l'équipe de sécurité une vue d'ensemble sur le système.
+### 6. Supervision depuis le Dashboard (DApp)
+L'interface web décentralisée (DApp) interroge le réseau et affiche l'ensemble des alertes en temps réel, offrant à l'équipe de sécurité une vue d'ensemble transparente sur le système.
 ![Dashboard Overview](screenshots/06_dashboard_overview_alerts.png)
 *Vue générale du Dashboard ChainSOC affichant le panneau d'alertes en temps réel.*
 
